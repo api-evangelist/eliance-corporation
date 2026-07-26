@@ -1,8 +1,22 @@
 aid: eliance-corporation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eliance-corporation.png
 name: Eliance Corporation
-description: Eliance Corporation is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Eliance Corporation was a Minneapolis-based provider of bundled payment-processing and
+  back-office e-commerce services that enabled online merchants to accept and process payment transactions
+  over the Internet, lowering the barriers to entry for e-commerce. It was a portfolio company of Insight
+  Partners and has since exited. During enrichment no active company website, developer portal, public API,
+  OpenAPI specification, or documentation surface could be found, so no API artifacts were produced.
 url: https://raw.githubusercontent.com/api-evangelist/eliance-corporation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +24,28 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: exited
+x-headquarters: Minneapolis, MN, USA
+x-enrichment-note: No live API surface found (defunct/exited payments company); apis.yml identity pass only.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Payments
+- Payment Processing
+- eCommerce
+- Fintech
+- Merchant Services
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
