@@ -27,7 +27,7 @@ x-tier-reason: portfolio-lead
 x-status: exited
 x-headquarters: Minneapolis, MN, USA
 x-enrichment-note: No live API surface found (defunct/exited payments company); apis.yml identity pass only.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
